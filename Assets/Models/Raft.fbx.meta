@@ -9,14 +9,18 @@ ModelImporter:
     100002: //RootNode
     100004: RaftRoot
     100006: RaftSize
+    100008: Reference
     400000: curve1
     400002: //RootNode
     400004: RaftRoot
     400006: RaftSize
+    400008: Reference
     4300000: RaftSize
+    4300002: Reference
     7400000: RaftAnimation
     9500000: //RootNode
     13700000: RaftSize
+    13700002: Reference
   materials:
     importMaterials: 1
     materialName: 0
