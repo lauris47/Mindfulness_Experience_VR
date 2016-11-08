@@ -11,6 +11,7 @@ ModelImporter:
     3300000: //RootNode
     4300000: Terrain
     4300002: polySurface13
+    4300004: polySurface21
   materials:
     importMaterials: 1
     materialName: 0
