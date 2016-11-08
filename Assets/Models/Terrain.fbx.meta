@@ -12,6 +12,7 @@ ModelImporter:
     4300000: Terrain
     4300002: polySurface13
     4300004: polySurface21
+    4300006: polySurface30
   materials:
     importMaterials: 1
     materialName: 0

@@ -274,6 +274,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 GameObject.FindGameObjectWithTag("Butterfly").GetComponent<Animator>().Play("Default");
             }
+            if (other.tag == "StartRaft")
+            {
+                print("in");
+                GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().Play("RaftAnimation");
+            }
         }
     }
 }
