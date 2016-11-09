@@ -80,6 +80,7 @@
   <ItemGroup>
     <None Include="Assets\PolyRiver\Shaders\RiverShader.shader" />
     <None Include="Assets\Shaders\RiverShader.shader" />
+    <None Include="Assets\SimpleSky\ReadMe.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
