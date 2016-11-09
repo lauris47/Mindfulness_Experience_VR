@@ -5,6 +5,8 @@
 		_MainColor("Main Color", Color) = (0.5,0.5,0.5,1.0)
 		_Normal1("Normal Map one", 2D) = "white" {}
 		_Normal2("Normal Map two", 2D) = "white" {}
+		_DistortionSpeed("Distortion Speed", Range(0.01,500.0)) = 300
+		_DistortionAmount("Distortion Amount", Range(0.01,5.0)) = 0.5
 		_FoamColor("Foam Color", Color) = (1.0,1.0,1.0,1.0)
 		_FoamAmount("Foam amount", Range(0.0,10.0)) = 1.0
 		_FoamDistortionAmount("Foam Distortion", Range(0.0,5.0)) = 1.0
@@ -88,6 +90,8 @@
 	float _ReflectionAmount;
 	float _FoamDistortionAmount;
 	float _FoamDistortionSpeed;
+	float _DistortionSpeed;
+	float _DistortionAmount;
 
 	fixed4 frag(v2f i) : SV_Target
 	{
@@ -95,10 +99,10 @@
 	float offset = tex2D(_Noise, float2(i.noisy * _FoamDistortionAmount + (_Time.y * _FoamDistortionSpeed))).r;
 
 	//Distortion
-	float phase = _Time[1] / 20.0;
+	float phase = _Time[1] / _DistortionSpeed;
 	float f = frac(phase);
-	fixed3 normal = UnpackNormal(tex2D(_Normal1, i.normal1 * frac(phase + 0.5)));
-	fixed3 normal2 = UnpackNormal(tex2D(_Normal2, i.normal2 * f));
+	fixed3 normal = UnpackNormal(tex2D(_Normal1, i.normal1 * _DistortionAmount * frac(phase + 0.5)));
+	fixed3 normal2 = UnpackNormal(tex2D(_Normal2, i.normal2 * _DistortionAmount * f));
 	if (f > 0.5f)
 		f = 2.0f * (1.0f - f);
 	else
