@@ -75,7 +75,7 @@
 		o.TtoW1 = float3(worldTangent.y, worldBinormal.y, worldNormal.y);
 		o.TtoW2 = float3(worldTangent.z, worldBinormal.z, worldNormal.z);
 
-		UNITY_TRANSFER_FOG(o,o.vertex);
+		//UNITY_TRANSFER_FOG(o,o.vertex);
 		return o;
 	}
 
@@ -117,7 +117,7 @@
 	float sceneZ = LinearEyeDepth(tex2Dproj(_CameraDepthTexture,UNITY_PROJ_COORD(i.screenPos)).r);
 	float diff = (abs(sceneZ - i.screenPos.z)) / _FoamAmount;
 	if (diff <= 1.0f + offset) {
-		finalColor = _FoamColor;
+		finalColor += _FoamColor;
 	}
 	UNITY_APPLY_FOG(i.fogCoord, col);
 	return finalColor;
