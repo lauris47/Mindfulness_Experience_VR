@@ -15,8 +15,6 @@ Shader "Custom/RiverShader"
 		_FoamDistortionSpeed("Foam Speed", Range(0.002,0.04)) = 0.02
 		_Noise("Noise texture", 2D) = "white" {}
 		_ReflectionAmount("Reflection Amount", Range(0.0,1.0)) = 0.5
-		_FresnelPower("Fresnel amount", Range(0.0,1000.0)) = 1.0
-		_FresnelScale("Fresnel scale", Range(0.0,10.0)) = 1.0
 		[HideInInspector]_ReflectionTex("Internal reflection", 2D) = "white" {}
 	}
 		SubShader
@@ -59,8 +57,6 @@ Shader "Custom/RiverShader"
 	sampler2D _MainTex;
 	float4 _MainTex_ST, _Normal1_ST, _Normal2_ST, _Noise_ST;
 	sampler2D _ReflectionTex;
-	float _FresnelScale;
-	float _FresnelPower;
 
 	v2f vert(appdata_tan v)
 	{
@@ -74,12 +70,6 @@ Shader "Custom/RiverShader"
 		o.normal1 = TRANSFORM_TEX(v.texcoord, _Normal1);
 		o.normal2 = TRANSFORM_TEX(v.texcoord, _Normal2);
 		o.noisy = TRANSFORM_TEX(v.texcoord, _Noise);
-
-		//Fresnel
-		float3 posWorld = mul(unity_ObjectToWorld, v.vertex).xyz;
-		float3 normWorld = normalize(mul(float4x4(unity_ObjectToWorld), v.normal));
-		float3 I = normalize(posWorld - _WorldSpaceCameraPos.xyz);
-		o.R = _FresnelScale * pow(1.0 + dot(I, normWorld), _FresnelPower);
 
 		//UNITY_TRANSFER_FOG(o,o.vertex);
 		return o;
@@ -114,11 +104,6 @@ Shader "Custom/RiverShader"
 		f = 2.0f * (1.0f - f);
 	else
 		f = 2.0f * f;
-	// transform normal to the world space
-
-	//Fresnel
-	i.viewDir = normalize(i.viewDir);
-	float fresnelFactor = dot(i.viewDir, normalCombine);
 
 	fixed4 finalColor = 1.0;
 	half4 screenWithOffset = i.screenPos + lerp(float4(normal,0.0), float4(normal2,0.0), f);
