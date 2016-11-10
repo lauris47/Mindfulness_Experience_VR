@@ -76,6 +76,7 @@ ModelImporter:
     7400018: ' [9]'
     7400020: ' [10]'
     7400022: ' [11]'
+    7400024: Take 001
     9500000: //RootNode
     13700000: deer
   materials:
@@ -118,8 +119,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
-    normalSmoothAngle: 60
-    normalImportMode: 0
+    normalSmoothAngle: 0
+    normalImportMode: 1
     tangentImportMode: 3
   importAnimation: 1
   copyAvatar: 0

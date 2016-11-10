@@ -4,15 +4,14 @@
 	{
 		_MainColor("Main Color", Color) = (0.5,0.5,0.5,1.0)
 		_Normal1("Normal Map one", 2D) = "white" {}
-	_Normal2("Normal Map two", 2D) = "white" {}
-	_DistortionSpeed("Distortion Speed", Range(0.01,500.0)) = 300
-		_DistortionDampener("Distortion Dampener", Range(0.01,5.0)) = 0.5
+		_Normal2("Normal Map two", 2D) = "white" {}
+		_DistortionDampener("Distortion Dampener", Range(0.01,1000.0)) = 800
 		_FoamColor("Foam Color", Color) = (1.0,1.0,1.0,1.0)
 		_FoamAmount("Foam amount", Range(0.0,10.0)) = 1.0
 		_FoamDistortionAmount("Foam Distortion", Range(0.0,5.0)) = 1.0
 		_FoamDistortionSpeed("Foam Speed", Range(0.002,0.04)) = 0.02
 		_Noise("Noise texture", 2D) = "white" {}
-	_ReflectionAmount("Reflection Amount", Range(0.0,1.0)) = 0.5
+		_ReflectionAmount("Reflection Amount", Range(0.0,1.0)) = 0.5
 		[HideInInspector]_ReflectionTex("Internal reflection", 2D) = "white" {}
 	}
 		SubShader
@@ -99,10 +98,10 @@
 		float offset = tex2D(_Noise, float2(i.noisy * _FoamDistortionAmount + (_Time.y * _FoamDistortionSpeed))).r;
 
 	//Distortion
-	float phase = _Time[1] / _DistortionDampener;
+	float phase = _Time[1] / _DistortionDampener * 2;
 	float f = frac(phase);
-	fixed3 normal = UnpackNormal(tex2D(_Normal1, i.normal1 * _DistortionAmount * frac(phase + 0.5)));
-	fixed3 normal2 = UnpackNormal(tex2D(_Normal2, i.normal2 * _DistortionAmount * f));
+	fixed3 normal = UnpackNormal(tex2D(_Normal1, i.normal1 * frac(phase + 0.5)));
+	fixed3 normal2 = UnpackNormal(tex2D(_Normal2, i.normal2 * f));
 	if (f > 0.5f)
 		f = 2.0f * (1.0f - f);
 	else
