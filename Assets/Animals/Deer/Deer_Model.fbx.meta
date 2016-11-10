@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 8bb347287ca62cf4daa8865695d78e58
+timeCreated: 1478692384
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: deer
+    100004: deer 1
+    100006: deer_bone_0
+    100008: deer_bone_1
+    100010: deer_bone_10
+    100012: deer_bone_11
+    100014: deer_bone_12
+    100016: deer_bone_13
+    100018: deer_bone_14
+    100020: deer_bone_15
+    100022: deer_bone_16
+    100024: deer_bone_17
+    100026: deer_bone_18
+    100028: deer_bone_19
+    100030: deer_bone_2
+    100032: deer_bone_20
+    100034: deer_bone_21
+    100036: deer_bone_22
+    100038: deer_bone_23
+    100040: deer_bone_24
+    100042: deer_bone_25
+    100044: deer_bone_3
+    100046: deer_bone_4
+    100048: deer_bone_5
+    100050: deer_bone_6
+    100052: deer_bone_7
+    100054: deer_bone_8
+    100056: deer_bone_9
+    400000: //RootNode
+    400002: deer
+    400004: deer 1
+    400006: deer_bone_0
+    400008: deer_bone_1
+    400010: deer_bone_10
+    400012: deer_bone_11
+    400014: deer_bone_12
+    400016: deer_bone_13
+    400018: deer_bone_14
+    400020: deer_bone_15
+    400022: deer_bone_16
+    400024: deer_bone_17
+    400026: deer_bone_18
+    400028: deer_bone_19
+    400030: deer_bone_2
+    400032: deer_bone_20
+    400034: deer_bone_21
+    400036: deer_bone_22
+    400038: deer_bone_23
+    400040: deer_bone_24
+    400042: deer_bone_25
+    400044: deer_bone_3
+    400046: deer_bone_4
+    400048: deer_bone_5
+    400050: deer_bone_6
+    400052: deer_bone_7
+    400054: deer_bone_8
+    400056: deer_bone_9
+    4300000: deer
+    7400000: ' [0]'
+    7400002: ' [2]'
+    7400004: ' [1]'
+    7400006: ' [4]'
+    7400008: ' [3]'
+    7400010: ' [6]'
+    7400012: ' [7]'
+    7400014: ' [5]'
+    7400016: ' [8]'
+    7400018: ' [9]'
+    7400020: ' [10]'
+    7400022: ' [11]'
+    7400024: Take 001
+    9500000: //RootNode
+    13700000: deer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 26
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
