@@ -1,26 +1,22 @@
 fileFormatVersion: 2
 guid: 8878260981feeab4180556bd0ba31dbd
-timeCreated: 1478616696
+timeCreated: 1478873035
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: curve1
+    100000: AnimationCurve
     100002: //RootNode
     100004: RaftRoot
-    100006: RaftSize
-    100008: Reference
-    400000: curve1
+    100006: Reference
+    400000: AnimationCurve
     400002: //RootNode
     400004: RaftRoot
-    400006: RaftSize
-    400008: Reference
-    4300000: RaftSize
-    4300002: Reference
-    7400000: RaftAnimation
+    400006: Reference
+    4300000: Reference
+    7400000: Take 001
     9500000: //RootNode
-    13700000: RaftSize
-    13700002: Reference
+    13700000: Reference
   materials:
     importMaterials: 1
     materialName: 0
@@ -41,43 +37,7 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: RaftAnimation
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1000
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: curve1
-        weight: 1
-      - path: RaftRoot
-        weight: 1
-      - path: RaftSize
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
