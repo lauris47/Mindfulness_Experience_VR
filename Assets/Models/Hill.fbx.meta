@@ -13,8 +13,10 @@ ModelImporter:
     400004: Snow
     2300000: Hill 1
     2300002: Snow
+    2300004: //RootNode
     3300000: Hill 1
     3300002: Snow
+    3300004: //RootNode
     4300000: Snow
     4300002: Hill
   materials:

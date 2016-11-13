@@ -6,9 +6,13 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Tree_oak_2
     400000: //RootNode
+    400002: Tree_oak_2
     2300000: //RootNode
+    2300002: Tree_oak_2
     3300000: //RootNode
+    3300002: Tree_oak_2
     4300000: Tree_oak_2
   materials:
     importMaterials: 1
