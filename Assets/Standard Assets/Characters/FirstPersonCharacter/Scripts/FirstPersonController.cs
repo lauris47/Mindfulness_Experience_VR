@@ -140,6 +140,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_MouseLook.UpdateCursorLock();
         }
+        void OnGUI()
+        {
+            //Display framerate
+            GUI.Label(new Rect(0, 0, 100, 100), (1.0f / Time.smoothDeltaTime).ToString());
+        }
+
+
 
 
         private void PlayJumpSound()
