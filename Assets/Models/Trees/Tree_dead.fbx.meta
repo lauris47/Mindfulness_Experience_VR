@@ -1,52 +1,51 @@
 fileFormatVersion: 2
-guid: 50a55fff8be21564d9f5df45b72ab895
-timeCreated: 1478521525
+guid: da4bacb1c8cb3a749bda048c9943376b
+timeCreated: 1479120582
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: B_Branch
-    100002: F_Branch
-    100004: F_subBranch
-    100006: L_Branch
-    100008: L_subBranch
-    100010: R_Branch
-    100012: R_subBranch
-    100014: //RootNode
-    100016: Trunk
+    100002: Dead_tree
+    100004: F_Branch
+    100006: F_subBranch
+    100008: L_Branch
+    100010: L_subBranch
+    100012: R_Branch
+    100014: R_subBranch
+    100016: transform1
+    100018: transform2
+    100020: transform3
+    100022: transform4
+    100024: transform5
+    100026: transform6
+    100028: transform7
+    100030: transform8
+    100032: Tree
+    100034: //RootNode
+    100036: Trunk
     400000: B_Branch
-    400002: F_Branch
-    400004: F_subBranch
-    400006: L_Branch
-    400008: L_subBranch
-    400010: R_Branch
-    400012: R_subBranch
-    400014: //RootNode
-    400016: Trunk
-    2300000: B_Branch
-    2300002: F_Branch
-    2300004: F_subBranch
-    2300006: L_Branch
-    2300008: L_subBranch
-    2300010: R_Branch
-    2300012: R_subBranch
-    2300014: Trunk
-    3300000: B_Branch
-    3300002: F_Branch
-    3300004: F_subBranch
-    3300006: L_Branch
-    3300008: L_subBranch
-    3300010: R_Branch
-    3300012: R_subBranch
-    3300014: Trunk
-    4300000: Trunk
-    4300002: L_Branch
-    4300004: R_Branch
-    4300006: R_subBranch
-    4300008: L_subBranch
-    4300010: F_Branch
-    4300012: F_subBranch
-    4300014: B_Branch
+    400002: Dead_tree
+    400004: F_Branch
+    400006: F_subBranch
+    400008: L_Branch
+    400010: L_subBranch
+    400012: R_Branch
+    400014: R_subBranch
+    400016: transform1
+    400018: transform2
+    400020: transform3
+    400022: transform4
+    400024: transform5
+    400026: transform6
+    400028: transform7
+    400030: transform8
+    400032: Tree
+    400034: //RootNode
+    400036: Trunk
+    2300000: Dead_tree
+    3300000: Dead_tree
+    4300000: Dead_tree
     9500000: //RootNode
   materials:
     importMaterials: 1
