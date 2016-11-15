@@ -62,7 +62,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             //Our Implementation
             //animals = GameObject.FindGameObjectsWithTag("Animal");
+            //anim = GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().Ani
 
+
+            //Our Implementation
         }
 
 
@@ -89,6 +92,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().speed += 2;
+               
+            }
+            if (Input.GetKeyDown(KeyCode.LeftControl))
+            {
+                GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().speed -= 2;
+
+            }
+
+
         }
 
 
