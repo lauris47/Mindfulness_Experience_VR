@@ -9,6 +9,7 @@ Shader "Custom/RiverShader"
 		_Normal1("Normal Map one", 2D) = "white" {}
 		_Normal2("Normal Map two", 2D) = "white" {}
 		_DistortionDampener("Distortion Dampener", Range(0.01,1000.0)) = 800
+		_EdgeBlend("Edge Blend", Range(0.0,1.0)) = 0.1
 		_FoamColor("Foam Color", Color) = (1.0,1.0,1.0,1.0)
 		_FoamAmount("Foam amount", Range(0.0,10.0)) = 1.0
 		_FoamDistortionAmount("Foam Distortion", Range(0.0,5.0)) = 1.0
@@ -88,6 +89,7 @@ Shader "Custom/RiverShader"
 	float _FoamDistortionSpeed;
 	float _DistortionDampener;
 	float _DistortionAmount;
+	float _EdgeBlend;
 
 	fixed4 frag(v2f i) : SV_Target
 	{
@@ -110,13 +112,17 @@ Shader "Custom/RiverShader"
 	half4 rtReflections = tex2Dproj(_ReflectionTex, UNITY_PROJ_COORD(screenWithOffset));
 	finalColor.rgb = lerp(_MainColor.rgb, rtReflections.rgb, _ReflectionAmount);
 	//Foam
-	float sceneZ = LinearEyeDepth(tex2Dproj(_CameraDepthTexture,UNITY_PROJ_COORD(i.screenPos)).r);
-	float diff = (abs(sceneZ - i.screenPos.z)) / _FoamAmount;
+	float depth = LinearEyeDepth(tex2Dproj(_CameraDepthTexture,UNITY_PROJ_COORD(i.screenPos)).r);
+	float diff = (abs(depth - i.screenPos.z)) / _FoamAmount;
+	float edgeBlendFactor = saturate(_EdgeBlend*(depth - i.screenPos.z));
+
+	finalColor.a = edgeBlendFactor;
+
 	if (diff <= 1.0f + offset) {
-		finalColor += _FoamColor;
+		finalColor = _FoamColor;
 	}
 	UNITY_APPLY_FOG(i.fogCoord, col);
-	return lerp(finalColor, _FresnelColor, half4(i.R,0));
+	return finalColor;
 	}
 		ENDCG
 	}
