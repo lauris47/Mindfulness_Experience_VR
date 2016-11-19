@@ -82,6 +82,7 @@
     <Compile Include="Assets\TreeBobBuilder\TreeBuilderEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Models\Plants\Shaders\Grass.shader" />
     <None Include="Assets\Models\Plants\Shaders\WavyMaterial.shader" />
     <None Include="Assets\PolyRiver\Shaders\RiverShader.shader" />
     <None Include="Assets\SimpleSky\ReadMe.txt" />
