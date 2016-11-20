@@ -94,7 +94,7 @@ Shader "Custom/RiverShader"
 	fixed4 frag(v2f i) : SV_Target
 	{
 
-		float offset = tex2D(_Noise, float2(i.noisy * _FoamDistortionAmount + (_Time.y * _FoamDistortionSpeed))).r;
+	float offset = tex2D(_Noise, float2(i.noisy * _FoamDistortionAmount + (_Time.y * _FoamDistortionSpeed))).r;
 
 	//Distortion
 	float phase = _Time[1] / _DistortionDampener * 2;

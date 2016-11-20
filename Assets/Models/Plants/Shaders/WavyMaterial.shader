@@ -6,7 +6,7 @@
 		_Metallic ("Metallic", Range(0,1)) = 0.0
 		_DisplacementSpeed("Grass Wave speed", Range(0.0,10.0)) = 1.0
 		_DisplacementAmount("Grass Wave amount", Range(0.0,0.5)) = 0.1
-		_WaveThreshold("Wave Threshold", Range(0.0,1.0)) = 0.0
+		_WaveThreshold("Wave Threshold", Range(-1.0,1.0)) = 0.0
 	}
 	SubShader {
 		Tags { "RenderType"="Opaque" }
