@@ -13,6 +13,8 @@ ModelImporter:
     400002: //RootNode
     400004: RaftRoot
     400006: Reference
+    2300000: Reference
+    3300000: Reference
     4300000: Reference
     7400000: RaftSwim
     9500000: //RootNode
