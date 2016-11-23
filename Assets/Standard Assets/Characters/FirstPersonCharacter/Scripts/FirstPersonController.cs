@@ -315,7 +315,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (other.tag == "CrowTrigger")
             {
-                GameObject.FindGameObjectWithTag("Crow").GetComponent<Animator>().Play("Default");
+                print("Bird Flying");
+                GameObject.FindGameObjectWithTag("Crow").GetComponent<Animator>().Play("CrowFly");
             }
             if (other.tag == "ButterflyTrigger")
             {

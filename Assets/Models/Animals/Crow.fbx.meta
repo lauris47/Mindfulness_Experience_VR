@@ -1,49 +1,48 @@
 fileFormatVersion: 2
-guid: 48c32612fe1de204c91944955b54c100
-timeCreated: 1478439080
+guid: 0f62dba254d437a4089f06e8d33900a1
+timeCreated: 1479916554
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: Chest
     100002: //RootNode
-    100004: Crow 1
-    100006: Head
-    100008: Left_leg
-    100010: Left_lower_wing
-    100012: Left_wing
-    100014: Left_wing_tip
-    100016: Mouth
-    100018: Righ_leg
-    100020: Right_lower_wing
-    100022: Right_wing
-    100024: Right_wing_tip
-    100026: Root
-    100028: Tail
-    100030: Crow_controll
+    100004: Crow
+    100006: Crow_controll
+    100008: Head
+    100010: Left_leg
+    100012: Left_lower_wing
+    100014: Left_wing
+    100016: Left_wing_tip
+    100018: Mouth
+    100020: Righ_leg
+    100022: Right_lower_wing
+    100024: Right_wing
+    100026: Right_wing_tip
+    100028: Root
+    100030: Tail
     400000: Chest
     400002: //RootNode
-    400004: Crow 1
-    400006: Head
-    400008: Left_leg
-    400010: Left_lower_wing
-    400012: Left_wing
-    400014: Left_wing_tip
-    400016: Mouth
-    400018: Righ_leg
-    400020: Right_lower_wing
-    400022: Right_wing
-    400024: Right_wing_tip
-    400026: Root
-    400028: Tail
-    400030: Crow_controll
-    2300000: Crow 1
-    3300000: Crow 1
+    400004: Crow
+    400006: Crow_controll
+    400008: Head
+    400010: Left_leg
+    400012: Left_lower_wing
+    400014: Left_wing
+    400016: Left_wing_tip
+    400018: Mouth
+    400020: Righ_leg
+    400022: Right_lower_wing
+    400024: Right_wing
+    400026: Right_wing_tip
+    400028: Root
+    400030: Tail
+    2300000: Crow
+    3300000: Crow
     4300000: Crow
-    7400000: Default
-    7400002: Idle
+    7400000: CrowFly
     9500000: //RootNode
-    13700000: Crow 1
+    13700000: Crow
   materials:
     importMaterials: 1
     materialName: 0
@@ -53,7 +52,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    motionNodeName: Root
+    motionNodeName: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -66,10 +65,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default
+      name: CrowFly
       takeName: Take 001
       firstFrame: 10
-      lastFrame: 480
+      lastFrame: 1000
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -92,67 +91,7 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: Crow 1
-        weight: 1
-      - path: Crow_controll
-        weight: 1
-      - path: Root
-        weight: 1
-      - path: Root/Chest
-        weight: 1
-      - path: Root/Chest/Head
-        weight: 1
-      - path: Root/Chest/Head/Mouth
-        weight: 1
-      - path: Root/Chest/Left_wing
-        weight: 1
-      - path: Root/Chest/Left_wing/Left_lower_wing
-        weight: 1
-      - path: Root/Chest/Left_wing/Left_lower_wing/Left_wing_tip
-        weight: 1
-      - path: Root/Chest/Right_wing
-        weight: 1
-      - path: Root/Chest/Right_wing/Right_lower_wing
-        weight: 1
-      - path: Root/Chest/Right_wing/Right_lower_wing/Right_wing_tip
-        weight: 1
-      - path: Root/Left_leg
-        weight: 1
-      - path: Root/Righ_leg
-        weight: 1
-      - path: Root/Tail
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Idle
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Crow 1
+      - path: Crow
         weight: 1
       - path: Crow_controll
         weight: 1
@@ -188,7 +127,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 30
+    globalScale: 100
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
