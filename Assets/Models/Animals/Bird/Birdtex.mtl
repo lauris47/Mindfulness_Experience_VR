@@ -1,0 +1,12 @@
+#
+# mtl file for Birdtex.obj obj file
+#
+
+newmtl world_critter_birds_bird01.m2_Geoset_000_Dbl
+illum 2
+Kd 1.000000 1.000000 1.000000
+Ka 0.250000 0.250000 0.250000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ns 0.000000
+map_Kd Birdtex_seagull01.png

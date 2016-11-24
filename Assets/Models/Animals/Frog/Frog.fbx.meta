@@ -1,0 +1,870 @@
+fileFormatVersion: 2
+guid: 1f898146bea87a14c912bb2fe4ab2caa
+timeCreated: 1479984560
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: frog
+    100004: frog 1
+    100006: frog_bone_0
+    100008: frog_bone_1
+    100010: frog_bone_10
+    100012: frog_bone_11
+    100014: frog_bone_12
+    100016: frog_bone_13
+    100018: frog_bone_14
+    100020: frog_bone_15
+    100022: frog_bone_16
+    100024: frog_bone_17
+    100026: frog_bone_18
+    100028: frog_bone_19
+    100030: frog_bone_2
+    100032: frog_bone_3
+    100034: frog_bone_4
+    100036: frog_bone_5
+    100038: frog_bone_6
+    100040: frog_bone_7
+    100042: frog_bone_8
+    100044: frog_bone_9
+    400000: //RootNode
+    400002: frog
+    400004: frog 1
+    400006: frog_bone_0
+    400008: frog_bone_1
+    400010: frog_bone_10
+    400012: frog_bone_11
+    400014: frog_bone_12
+    400016: frog_bone_13
+    400018: frog_bone_14
+    400020: frog_bone_15
+    400022: frog_bone_16
+    400024: frog_bone_17
+    400026: frog_bone_18
+    400028: frog_bone_19
+    400030: frog_bone_2
+    400032: frog_bone_3
+    400034: frog_bone_4
+    400036: frog_bone_5
+    400038: frog_bone_6
+    400040: frog_bone_7
+    400042: frog_bone_8
+    400044: frog_bone_9
+    4300000: frog
+    7400000: ' [0]'
+    7400002: FrogIdle
+    7400004: ' [2]'
+    7400006: ' [3]'
+    7400008: ' [4]'
+    7400010: ' [5]'
+    7400012: ' [6]'
+    7400014: ' [7]'
+    7400016: ' [8]'
+    7400018: ' [9]'
+    9500000: //RootNode
+    13700000: frog
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ' [0]'
+      takeName: ' [0]'
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FrogIdle
+      takeName: ' [1]'
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [2]'
+      takeName: ' [2]'
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [3]'
+      takeName: ' [3]'
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [4]'
+      takeName: ' [4]'
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [5]'
+      takeName: ' [5]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [6]'
+      takeName: ' [6]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [7]'
+      takeName: ' [7]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [8]'
+      takeName: ' [8]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ' [9]'
+      takeName: ' [9]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: frog
+        weight: 1
+      - path: frog 1
+        weight: 1
+      - path: frog 1/frog_bone_0
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_1
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_5/frog_bone_10/frog_bone_14/frog_bone_18
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_2/frog_bone_6/frog_bone_11/frog_bone_15/frog_bone_19
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_3
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_7
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_8/frog_bone_12/frog_bone_16
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13
+        weight: 1
+      - path: frog 1/frog_bone_0/frog_bone_4/frog_bone_9/frog_bone_13/frog_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
