@@ -93,8 +93,6 @@ ModelImporter:
         weight: 1
       - path: Crow
         weight: 1
-      - path: Crow_controll
-        weight: 1
       - path: Root
         weight: 1
       - path: Root/Chest

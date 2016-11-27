@@ -1,0 +1,11 @@
+1 reeds on the way
+2 too big bird
+3 butterfly
+4 house texture
+5 flower texture
+6 animation (canoe is tilted)
+7 more animation of animals on the way
+8 animation for deer
+9 raft texture
+10 update canoe mesh
+11 mountains too shiny, create new material
