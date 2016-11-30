@@ -122,6 +122,7 @@
     <None Include="Assets\Models\Plants\Shaders\WavyMaterial.shader" />
     <None Include="Assets\PolyRiver\Shaders\RiverShader.shader" />
     <None Include="Assets\Shaders\DepthMask.shader" />
+    <None Include="Assets\Shaders\Grass.shader" />
     <None Include="Assets\SimpleSky\ReadMe.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
