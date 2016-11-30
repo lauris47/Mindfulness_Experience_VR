@@ -67,16 +67,17 @@ ModelImporter:
     7400000: ' [0]'
     7400002: ' [2]'
     7400004: ' [1]'
-    7400006: ' [4]'
+    7400006: Deer_Idle
     7400008: ' [3]'
     7400010: ' [6]'
     7400012: ' [7]'
     7400014: ' [5]'
     7400016: ' [8]'
     7400018: ' [9]'
-    7400020: ' [10]'
+    7400020: Deer_Eating
     7400022: ' [11]'
     7400024: Take 001
+    7400026: Take 0010
     9500000: //RootNode
     13700000: deer
   materials:
@@ -99,7 +100,179 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Deer_Idle
+      takeName: ' [4]'
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: deer
+        weight: 1
+      - path: deer 1
+        weight: 1
+      - path: deer 1/deer_bone_0
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3/deer_bone_7
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3/deer_bone_7/deer_bone_11
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4/deer_bone_8
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4/deer_bone_8/deer_bone_12
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18/deer_bone_21
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18/deer_bone_21/deer_bone_24
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19/deer_bone_22
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19/deer_bone_22/deer_bone_25
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15/deer_bone_20
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15/deer_bone_20/deer_bone_23
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10/deer_bone_16
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10/deer_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Deer_Eating
+      takeName: ' [10]'
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: deer
+        weight: 1
+      - path: deer 1
+        weight: 1
+      - path: deer 1/deer_bone_0
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3/deer_bone_7
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_3/deer_bone_7/deer_bone_11
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4/deer_bone_8
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_4/deer_bone_8/deer_bone_12
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18/deer_bone_21
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_13/deer_bone_18/deer_bone_21/deer_bone_24
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19/deer_bone_22
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_14/deer_bone_19/deer_bone_22/deer_bone_25
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15/deer_bone_20
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_1/deer_bone_6/deer_bone_9/deer_bone_15/deer_bone_20/deer_bone_23
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10/deer_bone_16
+        weight: 1
+      - path: deer 1/deer_bone_0/deer_bone_2/deer_bone_5/deer_bone_10/deer_bone_17
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: a40a9e3bd86347342aebd4615764c3cf
-timeCreated: 1479983613
+guid: 40002c54afd3f0d4ea43681d6b332c14
+timeCreated: 1480506493
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: spells_rabbit2_white.m2_Geoset_000
+    100002: world_critter_birds_bird02.m2_Geoset_000
     400000: //RootNode
-    400002: spells_rabbit2_white.m2_Geoset_000
-    2300000: spells_rabbit2_white.m2_Geoset_000
-    3300000: spells_rabbit2_white.m2_Geoset_000
-    4300000: spells_rabbit2_white.m2_Geoset_000
+    400002: world_critter_birds_bird02.m2_Geoset_000
+    2300000: world_critter_birds_bird02.m2_Geoset_000
+    3300000: world_critter_birds_bird02.m2_Geoset_000
+    4300000: world_critter_birds_bird02.m2_Geoset_000
   materials:
     importMaterials: 1
     materialName: 0
