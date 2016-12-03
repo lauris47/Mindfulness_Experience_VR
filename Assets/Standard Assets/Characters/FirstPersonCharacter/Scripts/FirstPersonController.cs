@@ -63,7 +63,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         //Our Implementation
         private CharacterController PlayAnimations;
         GameObject[] animals;
+        AudioSource BreathingExercise;
+        AudioSource ListeningExercise;
         //Our Implementation
+
+
+
         // Use this for initialization
         private void Start()
         {
@@ -81,8 +86,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             //Our Implementation
             //animals = GameObject.FindGameObjectsWithTag("Animal");
             //anim = GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().Ani
-
-
+            AudioSource [] MindfulSounds  = GetComponents<AudioSource>();
+            BreathingExercise = MindfulSounds[3];
+            ListeningExercise = MindfulSounds[4];
             //Our Implementation
         }
 
@@ -325,6 +331,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (other.tag == "StartRaft")
             {
                 GameObject.FindGameObjectWithTag("Raft").GetComponent<Animator>().Play("RaftAnimation");
+            }
+            if(other.tag == "BreathingExercise")
+            {
+                BreathingExercise.Play();
+            }
+            if (other.tag == "ListeningExercise")
+            {
+                ListeningExercise.Play();
             }
         }
 
