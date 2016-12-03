@@ -120,7 +120,6 @@ Shader "Custom/RiverShader"
 	if (diff <= 1.0f + offset) {
 		finalColor = _FoamColor;
 	}
-	UNITY_APPLY_FOG(i.fogCoord, col);
 	return finalColor;
 	}
 		ENDCG

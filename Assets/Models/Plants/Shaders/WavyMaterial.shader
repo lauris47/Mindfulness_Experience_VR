@@ -1,4 +1,7 @@
-﻿Shader "Custom/WavyMaterial" {
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+Shader "Custom/WavyMaterial" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
@@ -31,10 +34,12 @@
 		float _WaveThreshold;
 		fixed4 _Color;
 
+
 		void vert(inout appdata_full v)
 		{
-			float wave = max(0, sign(v.vertex.y - _WaveThreshold));
-			v.vertex.xy += (sin(_Time.y * _DisplacementSpeed + v.vertex.z) * _DisplacementAmount) * wave;
+			float4 worldDisplacePos = mul(unity_ObjectToWorld, v.vertex);
+			worldDisplacePos.xy += sin(_Time.y * _DisplacementSpeed + worldDisplacePos.z) * _DisplacementAmount;
+			v.vertex = mul(unity_WorldToObject, worldDisplacePos);
 		}
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
