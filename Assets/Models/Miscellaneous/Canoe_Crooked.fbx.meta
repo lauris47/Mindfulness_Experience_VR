@@ -13,6 +13,7 @@ ModelImporter:
     100010: Pedle2
     100012: Canoe
     100014: Mindfull
+    100016: Radio
     400000: //RootNode
     400002: Backpack
     400004: Canoe_Crooked
@@ -21,6 +22,7 @@ ModelImporter:
     400010: Pedle2
     400012: Canoe
     400014: Mindfull
+    400016: Radio
     2300000: //RootNode
     2300002: Backpack
     2300004: Canoe_Crooked
@@ -29,6 +31,7 @@ ModelImporter:
     2300010: Pedle2
     2300012: Canoe
     2300014: Mindfull
+    2300016: Radio
     3300000: //RootNode
     3300002: Backpack
     3300004: Canoe_Crooked
@@ -37,6 +40,7 @@ ModelImporter:
     3300010: Pedle2
     3300012: Canoe
     3300014: Mindfull
+    3300016: Radio
     4300000: polySurface5
     4300002: Canoe_Crooked
     4300004: Backpack
@@ -45,6 +49,7 @@ ModelImporter:
     4300010: Cup
     4300012: Canoe
     4300014: Mindfull
+    4300016: Radio
   materials:
     importMaterials: 1
     materialName: 0
