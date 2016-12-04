@@ -11,30 +11,40 @@ ModelImporter:
     100006: Cup
     100008: Pedle1
     100010: Pedle2
+    100012: Canoe
+    100014: Mindfull
     400000: //RootNode
     400002: Backpack
     400004: Canoe_Crooked
     400006: Cup
     400008: Pedle1
     400010: Pedle2
+    400012: Canoe
+    400014: Mindfull
     2300000: //RootNode
     2300002: Backpack
     2300004: Canoe_Crooked
     2300006: Cup
     2300008: Pedle1
     2300010: Pedle2
+    2300012: Canoe
+    2300014: Mindfull
     3300000: //RootNode
     3300002: Backpack
     3300004: Canoe_Crooked
     3300006: Cup
     3300008: Pedle1
     3300010: Pedle2
+    3300012: Canoe
+    3300014: Mindfull
     4300000: polySurface5
     4300002: Canoe_Crooked
     4300004: Backpack
     4300006: Pedle1
     4300008: Pedle2
     4300010: Cup
+    4300012: Canoe
+    4300014: Mindfull
   materials:
     importMaterials: 1
     materialName: 0
