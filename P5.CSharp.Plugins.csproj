@@ -142,11 +142,6 @@
     <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\1 - Vertex Displacement\VertexDisplacement - Object.shader" />
-    <None Include="Assets\1 - Vertex Displacement\VertexDisplacement - World.shader" />
-    <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Base.shader" />
-    <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Normals.shader" />
-    <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Shadows.shader" />
     <None Include="Assets\Info\ToDo.txt" />
     <None Include="Assets\Models\Plants\Shaders\Grass.shader" />
     <None Include="Assets\Models\Plants\Shaders\WavyMaterial.shader" />
