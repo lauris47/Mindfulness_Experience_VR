@@ -323,12 +323,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (other.tag == "CrowTrigger")
             {
-                print("Bird Flying");
+                print("Crow 1 Flying");
                 GameObject.FindGameObjectWithTag("Crow").GetComponent<Animator>().Play("CrowFly");
+            }
+            if (other.tag == "CrowTrigger2")
+            {
+                print("Crow 2 Flying");
+                GameObject.FindGameObjectWithTag("Crow2").GetComponent<Animator>().Play("Crow2Fly");
             }
             if (other.tag == "ButterflyTrigger")
             {
-                GameObject.FindGameObjectWithTag("Butterfly").GetComponent<Animator>().Play("Default");
+                print("Butterfly 1 Flying");
+                GameObject.FindGameObjectWithTag("Butterfly").GetComponent<Animator>().Play("ButterFly");
             }
             if (other.tag == "StartRaft")
             {

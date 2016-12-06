@@ -24,7 +24,7 @@ ModelImporter:
     2300000: Butterfly_Model
     3300000: Butterfly_Model
     4300000: Butterfly_Model
-    7400000: Default
+    7400000: ButterFly
     9500000: //RootNode
     13700000: Butterfly_Model
   materials:
@@ -49,7 +49,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default
+      name: ButterFly
       takeName: Take 001
       firstFrame: 10
       lastFrame: 480
