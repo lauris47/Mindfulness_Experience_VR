@@ -65,6 +65,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         GameObject[] animals;
         AudioSource BreathingExercise;
         AudioSource ListeningExercise;
+        AudioSource IntroExercise;
         //Our Implementation
 
 
@@ -89,6 +90,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             AudioSource [] MindfulSounds  = GetComponents<AudioSource>();
             BreathingExercise = MindfulSounds[3];
             ListeningExercise = MindfulSounds[4];
+            IntroExercise = MindfulSounds[5];
             //Our Implementation
         }
 
@@ -339,6 +341,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (other.tag == "ListeningExercise")
             {
                 ListeningExercise.Play();
+            }
+            if(other.tag == "IntroExercise")
+            {
+                IntroExercise.Play();
             }
         }
 
