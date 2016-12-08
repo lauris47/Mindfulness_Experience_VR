@@ -10,7 +10,7 @@ public class RaftDynamic : MonoBehaviour {
     void Start()
     {
         occilationSpeedZ = 0.05f;
-        transform.Rotate(0, 0, -2.0f);
+        transform.Rotate(0, 0, -5.0f);
     }
 
     void Update()
