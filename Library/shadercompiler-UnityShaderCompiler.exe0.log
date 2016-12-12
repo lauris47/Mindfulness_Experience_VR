@@ -390,3 +390,43 @@ Cmd: compileSnippet
   api=4 type=0 insize=4940 outsize=1742 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=4940 outsize=2786 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=338 outsize=335 ok=1
+Cmd: preprocess
+  insize=3839 outsize=1162 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): Output value 'vert' is not completely initialized\nCompiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING
+  api=4 type=0 insize=2976 outsize=946 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2976 outsize=1394 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+Cmd: preprocess
+  insize=3843 outsize=1166 ok=1
+Cmd: preprocess
+  insize=335 outsize=332 ok=1
+Cmd: preprocess
+  insize=337 outsize=334 ok=1
+Cmd: preprocess
+  insize=337 outsize=334 ok=1
+Cmd: preprocess
+  insize=342 outsize=339 ok=1
+Cmd: preprocess
+  insize=338 outsize=335 ok=1
+Cmd: preprocess
+  insize=338 outsize=335 ok=1
+Cmd: preprocess
+  insize=337 outsize=334 ok=1
+Cmd: preprocess
+  insize=275 outsize=272 ok=1
+Cmd: preprocess
+  insize=286 outsize=283 ok=1
+Cmd: preprocess
+  insize=279 outsize=276 ok=1
+Cmd: preprocess
+  insize=317 outsize=314 ok=1
+Cmd: preprocess
+  insize=319 outsize=316 ok=1
+Cmd: preprocess
+  insize=330 outsize=327 ok=1
+Cmd: preprocess
+  insize=327 outsize=324 ok=1
