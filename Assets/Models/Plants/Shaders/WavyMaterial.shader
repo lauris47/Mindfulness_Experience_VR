@@ -37,9 +37,9 @@ Shader "Custom/WavyMaterial" {
 
 		void vert(inout appdata_full v)
 		{
-			float4 worldDisplacePos = mul(unity_ObjectToWorld, v.vertex);
-			worldDisplacePos.xy += sin(_Time.y * _DisplacementSpeed + worldDisplacePos.z) * _DisplacementAmount;
-			v.vertex = mul(unity_WorldToObject, worldDisplacePos);
+			float4 worldDisplacePos = mul(unity_ObjectToWorld, v.vertex); //Need to be in world time before we modify the vertex values.
+			worldDisplacePos.xy += sin(_Time.y * _DisplacementSpeed + worldDisplacePos.z) * _DisplacementAmount; //Displace by adding a sin- and position based value.
+			v.vertex = mul(unity_WorldToObject, worldDisplacePos); //Go back to object space, so Unity can perform the rest of the built in vertex functions.
 		}
 
 		void surf (Input IN, inout SurfaceOutputStandard o) {
