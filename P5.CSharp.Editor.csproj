@@ -117,11 +117,6 @@
     <Compile Include="Assets\Editor\ImageEffects\TonemappingEditor.cs" />
     <Compile Include="Assets\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
     <Compile Include="Assets\Editor\Object2Terrain.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-    <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Info\ToDo.txt" />
@@ -131,7 +126,6 @@
     <None Include="Assets\Shaders\AlphaTest-DiffuseDoublesided.shader" />
     <None Include="Assets\Shaders\DepthMask.shader" />
     <None Include="Assets\Shaders\Grass.shader" />
-    <None Include="Assets\Skybox\LICENSE.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -211,12 +205,6 @@
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
-    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-    <None Include="Assets\SteamVR\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
